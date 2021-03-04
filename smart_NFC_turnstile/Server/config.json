@@ -1,0 +1,20 @@
+{
+	"SQL": "(localdb)\\mssqllocaldb",
+	"Database": "Smart_turnstile",
+	"photoPath" : "D:\\Assignments\\Year_three1\\IOT_project\\smart_NFC_turnstile\\Server\\photos",
+	"DBusername": "admin",
+	"DBpassword": "admin",
+	"temperatureThreshold": 37.2,
+	"users":
+	[
+		{
+			"username": "admin",
+			"password": "admin"
+		},
+		{
+			"username": "admin1",
+			"password": "admin1"
+		}
+	]
+	
+}

@@ -1,0 +1,23 @@
+20th, Nov, 2020
+--------------------------------------------------------------------------------
+Stored prosedure SeedTheDatabase created
+The table will be populated with predefined data
+dbo.Booking
+1.
+--Name = 'Jonh'
+--Time = '2020-11-12 11:22:43.000'
+2.
+--Name = 'Charleys'
+--Time = '2020-11-14 18:22:43.000'
+dbo.Authen
+1.
+--AuthenKey = 'Key1'
+--BookingId = @id1
+2.
+--AuthenKey = 'Key2'
+--BookingId = @id2
+--------------------------------------------------------------------------------
+
+TODO
+Web development
+Encryption of the Authentication info

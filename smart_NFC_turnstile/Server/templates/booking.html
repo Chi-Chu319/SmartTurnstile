@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <title>booking</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../static/bootstrap.min.css" rel="stylesheet" media="screen">
+<!--     <style>
+      #left
+      {
+        float: left;
+        width: 64%;
+      }
+
+      #right
+      {
+        float: right;
+        width: 35%;
+      }       
+    </style> -->
+  </head>
+  <body>
+    <div class="container">
+      <h1>Please book a date</h1>
+      <br>
+      <div class="col-sm-4">
+        <h5>Please select a date</h5>
+        <form action="", method="POST">
+          {% for date in dates %}
+          <input type="radio" name="DateId" value ={{date[0]}} onclick="this.form.submit();">
+          <label>{{date[1]}}</label>
+          <br>
+          {% endfor %}
+        </form>
+      </div>
+      {% if times !=None %}
+      <div class="col-sm-4">
+        <h5>Please select a time</h5>
+        <form action="", method="POST">
+          {% for time in times %}
+          <input type="radio" name="TimeId" value ={{time[0]}} onclick="this.form.submit();">
+          <label>{{time[1]}}</label>
+          <br>
+          {% endfor %}
+        </form>
+      </div>
+      {% endif %}
+    </div>
+  </body>
+</html>

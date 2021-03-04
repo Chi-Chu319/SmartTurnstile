@@ -1,0 +1,9 @@
+ssh -l pi 192.168.31.127
+
+vncserver
+
+scp -r * D:\Assignments\Year_three1\IOT_project\smart_NFC_turnstile\Turnstile pi@192.168.31.127:/home/pi/iot_project
+
+scp -r * pi@192.168.31.127:/home/pi/iot_project/Turnstile D:\Assignments\Year_three1\IOT_project\smart_NFC_turnstile
+
+scp  D:\Assignments\Year_three1\IOT_project\smart_NFC_turnstile\Server\server.py pi@192.168.31.127:/home/pi/iot_project
